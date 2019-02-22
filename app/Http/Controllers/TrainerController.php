@@ -60,7 +60,7 @@ class TrainerController extends Controller
 
     public function show($slug)
     {
-        $trainer = Trainer::where('slug','=',$slug)->firstOrFail();
+        $trainer = Trainer::where('slug', '=', $slug)->firstOrFail();
 
         return view('trainers.show', compact('trainer'));
     }
