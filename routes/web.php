@@ -22,3 +22,5 @@ Route::get('/mi_primer_ruta', function(){
 Route::get('/name/{name}/lastname/{lastname?}', function($name, $lastname = null){
 	return 'Hola soy '.$name.' '.$lastname;
 });
+
+Route::get('prueba/{parametro}', 'PruebaController@prueba');
