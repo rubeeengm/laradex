@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Trainer extends Model
 {
-	protected $fillable = ['name','avatar'];
+	protected $fillable = ['name','avatar','slug'];
     
     /**
      * Get the route key for the model.
