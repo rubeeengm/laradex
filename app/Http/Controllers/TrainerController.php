@@ -3,6 +3,7 @@
 namespace LaraDex\Http\Controllers;
 
 use Illuminate\Http\Request;
+use LaraDex\Trainer;
 
 class TrainerController extends Controller
 {
