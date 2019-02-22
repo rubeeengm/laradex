@@ -57,9 +57,13 @@ class TrainerController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    //public function show($id)
+    public function show(Trainer $trainer)
     {
-        //
+        //$trainer = Trainer::find($id);
+
+        //return view('trainers.show', compact('trainer'));
+        return view('trainers.show', compact('trainer'));
     }
 
     /**
