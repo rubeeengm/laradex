@@ -7,6 +7,12 @@
 	</head>
 
 	<body>
-		@yield('content')
+		<nav class="navbar navbar-dark bg-primary">
+			<a href="#" class="navbar-brand">LaraDex</a>
+		</nav>
+		
+		<div class="container">
+			@yield('content')
+		</div>
 	</body>
 </html>
