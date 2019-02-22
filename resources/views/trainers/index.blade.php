@@ -7,7 +7,6 @@
 		@foreach($trainers as $trainer)
 			<div class="col-sm">
 				<div class="card" style="width: 18rem;">
-					<img src="/images/{{$trainer->avatar}}" alt="" class="card-img-top">
 					<div class="card-body">
 						<h5 class="card-title">{{$trainer->name}}</h5>
 						
