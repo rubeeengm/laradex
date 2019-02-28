@@ -3,7 +3,8 @@
 @section('title', 'Trainers - Edit')
 
 @section('content')
-
+	@include('common.errors')
+	
 	{!! Form::model($trainer,[	
 			'route' => ['trainers.update', $trainer],
 			'method' =>'PUT',
