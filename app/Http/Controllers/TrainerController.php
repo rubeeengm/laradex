@@ -50,7 +50,7 @@ class TrainerController extends Controller
         $trainer->avatar = $name;
         $trainer->save();
 
-        return "Saved";
+        return redirect()->route('trainers.index');
     }
 
     /**
@@ -96,7 +96,7 @@ class TrainerController extends Controller
 
         $trainer->save();
 
-        return "Updated";
+        return redirect()->route('trainers.show', [$trainer]);
     }
 
     /**
@@ -111,6 +111,6 @@ class TrainerController extends Controller
         \File::delete($file_path);
         $trainer->delete();
 
-        return 'deleted';
+        return redirect()->route('trainers.index');
     }
 }
