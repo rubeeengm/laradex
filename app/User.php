@@ -41,7 +41,7 @@ class User extends Authenticatable
         return $this->belongsToMany('LaraDex\Role');
     }
 
-    public function authorizedRoles($roles){
+    public function authorizeRoles($roles){
         if ($this->hasAnyRole($roles)){
             return true;
         }
