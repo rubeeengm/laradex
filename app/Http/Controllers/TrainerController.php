@@ -15,10 +15,10 @@ class TrainerController extends Controller
      */
     public function index(Request $request)
     {
-        $request->user()->authorizeRoles('admin');
+        $request->user()->authorizeRoles('admin','user');
 
         $trainers = Trainer::all();
-        
+
         return view('trainers.index', compact('trainers'));
     }
 
@@ -88,7 +88,7 @@ class TrainerController extends Controller
     public function update(Request $request, Trainer $trainer)
     {
         $trainer->fill($request->except('avatar'));
-        
+
         if ($request -> hasFile('avatar')) {
             $file = $request -> file('avatar');
             $name = time().$file->getClientOriginalName();
@@ -98,7 +98,7 @@ class TrainerController extends Controller
 
         $trainer->save();
 
-        return redirect()->route('trainers.show', [$trainer])->with('status', 'Entrenador 
+        return redirect()->route('trainers.show', [$trainer])->with('status', 'Entrenador
                                                                 actualizado correctamente');
     }
 
