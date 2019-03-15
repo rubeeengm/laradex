@@ -26,6 +26,8 @@ Route::get('/name/{name}/lastname/{lastname?}', function($name, $lastname = null
 Route::get('prueba/{parametro}', 'PruebaController@prueba');
 
 Route::resource('trainers', 'TrainerController');
+Route::resource('pokemons', 'PokemonController');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
