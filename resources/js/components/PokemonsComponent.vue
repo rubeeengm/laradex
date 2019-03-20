@@ -21,15 +21,11 @@
     export default {
         data(){
             return {
-                pokemons: [
-                    { id: 1, name: "Pikachu" },
-                    { id: 2, name: "Squirtle" },
-                    { id: 3, name: "Charizard" }
-                ]
+                pokemons: []
             }
         },
         mounted() {
-            console.log('Component mounted.')
+            axios.get('http://127.0.0.1:8000/pokemons').then(response => (this.pokemons = response.data))
         }
     }
 </script>
