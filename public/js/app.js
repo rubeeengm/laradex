@@ -1778,42 +1778,9 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CreatePokemonComponent.vue?vue&type=script&lang=js& ***!
   \*********************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "CreateComponent"
-});
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/lasergun/Documents/programming/web/laradex/resources/js/components/CreatePokemonComponent.vue: Unexpected token, expected \",\" (44:31)\n\n\u001b[0m \u001b[90m 42 | \u001b[39m                picture\u001b[33m:\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpicture\u001b[0m\n\u001b[0m \u001b[90m 43 | \u001b[39m            })\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 | \u001b[39m            \u001b[33m.\u001b[39mthen(funcion(res) {\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 | \u001b[39m                console\u001b[33m.\u001b[39mlog(res)\u001b[0m\n\u001b[0m \u001b[90m 46 | \u001b[39m            $(\u001b[32m'#addPokemon'\u001b[39m)\u001b[33m.\u001b[39mmodal(\u001b[32m'hide'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 47 | \u001b[39m            })\u001b[0m\n    at Parser.raise (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:3831:17)\n    at Parser.unexpected (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5143:16)\n    at Parser.expect (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5135:28)\n    at Parser.parseCallExpressionArguments (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6055:14)\n    at Parser.parseSubscript (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5965:29)\n    at Parser.parseSubscripts (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5882:19)\n    at Parser.parseExprSubscripts (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5872:17)\n    at Parser.parseMaybeUnary (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5842:21)\n    at Parser.parseExprOps (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5729:23)\n    at Parser.parseMaybeConditional (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5702:23)\n    at Parser.parseMaybeAssign (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5647:21)\n    at Parser.parseExpression (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5595:23)\n    at Parser.parseStatementContent (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7378:23)\n    at Parser.parseStatement (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7243:17)\n    at Parser.parseBlockOrModuleBlockBody (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7810:25)\n    at Parser.parseBlockBody (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7797:10)\n    at Parser.parseBlock (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7786:10)\n    at Parser.parseFunctionBody (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6876:24)\n    at Parser.parseFunctionBodyAndFinish (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6860:10)\n    at withTopicForbiddingContext (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7945:12)\n    at Parser.withTopicForbiddingContext (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7150:14)\n    at Parser.parseFunction (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7944:10)\n    at Parser.parseFunctionExpression (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6326:17)\n    at Parser.parseExprAtom (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6232:21)\n    at Parser.parseExprSubscripts (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5862:23)\n    at Parser.parseMaybeUnary (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5842:21)\n    at Parser.parseExprOps (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5729:23)\n    at Parser.parseMaybeConditional (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5702:23)\n    at Parser.parseMaybeAssign (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5647:21)\n    at Parser.parseObjectProperty (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6730:101)\n    at Parser.parseObjPropValue (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6755:101)\n    at Parser.parseObj (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6670:12)\n    at Parser.parseExprAtom (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6229:21)\n    at Parser.parseExprSubscripts (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5862:23)\n    at Parser.parseMaybeUnary (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5842:21)\n    at Parser.parseExprOps (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5729:23)");
 
 /***/ }),
 
@@ -37687,94 +37654,125 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    {
+      staticClass: "modal fade",
+      attrs: { id: "addPokemon", role: "dialog", "aria-hidden": "true" }
+    },
+    [
+      _c("div", { staticClass: "modal-dialog", attrs: { role: "document" } }, [
+        _c("div", { staticClass: "modal-content" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "modal-body" }, [
+            _c(
+              "form",
+              {
+                on: {
+                  submit: function($event) {
+                    $event.preventDefault()
+                    return _vm.savePokemon($event)
+                  }
+                }
+              },
+              [
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", [_vm._v("Pokemon")]),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.name,
+                        expression: "name"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      placeholder: "Ingresa el nombre del pokemon"
+                    },
+                    domProps: { value: _vm.name },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.name = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c("label", [_vm._v("Picture")]),
+                  _vm._v(" "),
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.picture,
+                        expression: "picture"
+                      }
+                    ],
+                    staticClass: "form-control",
+                    attrs: {
+                      type: "text",
+                      placeholder: "Ingresa la url de una imagen"
+                    },
+                    domProps: { value: _vm.picture },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.picture = $event.target.value
+                      }
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  { staticClass: "btn btn-primary", attrs: { type: "submit" } },
+                  [_vm._v("Save")]
+                )
+              ]
+            )
+          ])
+        ])
+      ])
+    ]
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "modal fade",
-        attrs: { id: "addPokemon", role: "dialog", "aria-hidden": "true" }
-      },
-      [
-        _c(
-          "div",
-          { staticClass: "modal-dialog", attrs: { role: "document" } },
-          [
-            _c("div", { staticClass: "modal-content" }, [
-              _c("div", { staticClass: "modal-header" }, [
-                _c(
-                  "h5",
-                  {
-                    staticClass: "modal-title",
-                    attrs: { id: "exampleModalLabel" }
-                  },
-                  [_vm._v("Agregar Pokemon")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "button",
-                  {
-                    staticClass: "close",
-                    attrs: {
-                      type: "button",
-                      "data-dismiss": "modal",
-                      "aria-label": "Close"
-                    }
-                  },
-                  [
-                    _c("span", { attrs: { "aria-hidden": "true" } }, [
-                      _vm._v("×")
-                    ])
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "modal-body" }, [
-                _c("form", [
-                  _c("div", { staticClass: "form-group" }, [
-                    _c("label", [_vm._v("Pokemon")]),
-                    _vm._v(" "),
-                    _c("input", {
-                      staticClass: "form-control",
-                      attrs: {
-                        type: "text",
-                        placeholder: "Ingresa el nombre del pokemon"
-                      }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-group" }, [
-                    _c("label", [_vm._v("Picture")]),
-                    _vm._v(" "),
-                    _c("input", {
-                      staticClass: "form-control",
-                      attrs: {
-                        type: "text",
-                        placeholder: "Ingresa la url de una imagen"
-                      }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-primary",
-                      attrs: { type: "submit" }
-                    },
-                    [_vm._v("Save")]
-                  )
-                ])
-              ])
-            ])
-          ]
-        )
-      ]
-    )
+    return _c("div", { staticClass: "modal-header" }, [
+      _c(
+        "h5",
+        { staticClass: "modal-title", attrs: { id: "exampleModalLabel" } },
+        [_vm._v("Agregar Pokemon")]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "close",
+          attrs: {
+            type: "button",
+            "data-dismiss": "modal",
+            "aria-label": "Close"
+          }
+        },
+        [_c("span", { attrs: { "aria-hidden": "true" } }, [_vm._v("×")])]
+      )
+    ])
   }
 ]
 render._withStripped = true
@@ -37877,7 +37875,7 @@ var render = function() {
                   "background-color": "#EFEFEF",
                   margin: "20px"
                 },
-                attrs: { src: "/images/", alt: "" }
+                attrs: { src: pokemon.picture, alt: "" }
               }),
               _vm._v(" "),
               _c("div", { staticClass: "card-body" }, [
