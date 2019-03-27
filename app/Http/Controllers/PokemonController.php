@@ -3,7 +3,7 @@
 namespace LaraDex\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Laradex\Pokemon;
+use LaraDex\Pokemon;
 
 class PokemonController extends Controller
 {
@@ -23,7 +23,8 @@ class PokemonController extends Controller
             $pokemon->save();
 
             return response()->json([
-                "message" => "Pokemon creado correctamente."
+                "message" => "Pokemon creado correctamente.",
+                "pokemon" => $pokemon
             ],200);
         }
     }

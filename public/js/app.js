@@ -1778,9 +1778,61 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CreatePokemonComponent.vue?vue&type=script&lang=js& ***!
   \*********************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/lasergun/Documents/programming/web/laradex/resources/js/components/CreatePokemonComponent.vue: Unexpected token, expected \",\" (44:31)\n\n\u001b[0m \u001b[90m 42 | \u001b[39m                picture\u001b[33m:\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpicture\u001b[0m\n\u001b[0m \u001b[90m 43 | \u001b[39m            })\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 | \u001b[39m            \u001b[33m.\u001b[39mthen(funcion(res) {\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 | \u001b[39m                console\u001b[33m.\u001b[39mlog(res)\u001b[0m\n\u001b[0m \u001b[90m 46 | \u001b[39m            $(\u001b[32m'#addPokemon'\u001b[39m)\u001b[33m.\u001b[39mmodal(\u001b[32m'hide'\u001b[39m)\u001b[0m\n\u001b[0m \u001b[90m 47 | \u001b[39m            })\u001b[0m\n    at Parser.raise (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:3831:17)\n    at Parser.unexpected (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5143:16)\n    at Parser.expect (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5135:28)\n    at Parser.parseCallExpressionArguments (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6055:14)\n    at Parser.parseSubscript (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5965:29)\n    at Parser.parseSubscripts (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5882:19)\n    at Parser.parseExprSubscripts (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5872:17)\n    at Parser.parseMaybeUnary (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5842:21)\n    at Parser.parseExprOps (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5729:23)\n    at Parser.parseMaybeConditional (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5702:23)\n    at Parser.parseMaybeAssign (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5647:21)\n    at Parser.parseExpression (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5595:23)\n    at Parser.parseStatementContent (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7378:23)\n    at Parser.parseStatement (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7243:17)\n    at Parser.parseBlockOrModuleBlockBody (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7810:25)\n    at Parser.parseBlockBody (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7797:10)\n    at Parser.parseBlock (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7786:10)\n    at Parser.parseFunctionBody (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6876:24)\n    at Parser.parseFunctionBodyAndFinish (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6860:10)\n    at withTopicForbiddingContext (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7945:12)\n    at Parser.withTopicForbiddingContext (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7150:14)\n    at Parser.parseFunction (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:7944:10)\n    at Parser.parseFunctionExpression (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6326:17)\n    at Parser.parseExprAtom (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6232:21)\n    at Parser.parseExprSubscripts (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5862:23)\n    at Parser.parseMaybeUnary (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5842:21)\n    at Parser.parseExprOps (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5729:23)\n    at Parser.parseMaybeConditional (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5702:23)\n    at Parser.parseMaybeAssign (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5647:21)\n    at Parser.parseObjectProperty (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6730:101)\n    at Parser.parseObjPropValue (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6755:101)\n    at Parser.parseObj (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6670:12)\n    at Parser.parseExprAtom (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:6229:21)\n    at Parser.parseExprSubscripts (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5862:23)\n    at Parser.parseMaybeUnary (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5842:21)\n    at Parser.parseExprOps (/home/lasergun/Documents/programming/web/laradex/node_modules/@babel/parser/lib/index.js:5729:23)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _event_bus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../event-bus */ "./resources/js/event-bus.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      name: null,
+      picture: null
+    };
+  },
+  methods: {
+    savePokemon: function savePokemon() {
+      axios.post('http://127.0.0.1:8000/pokemons', {
+        name: this.name,
+        picture: this.picture
+      }).then(function (res) {
+        $('#addPokemon').modal('hide');
+        _event_bus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('pokemon-added', res.data.pokemon);
+      }).catch(function (err) {
+        console.log(err);
+      });
+    }
+  }
+});
 
 /***/ }),
 
@@ -1826,6 +1878,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _event_bus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../event-bus */ "./resources/js/event-bus.js");
 //
 //
 //
@@ -1846,6 +1899,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -1853,11 +1907,18 @@ __webpack_require__.r(__webpack_exports__);
       loading: true
     };
   },
-  mounted: function mounted() {
+  created: function created() {
     var _this = this;
 
+    _event_bus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('pokemon-added', function (data) {
+      _this.pokemons.push(data);
+    });
+  },
+  mounted: function mounted() {
+    var _this2 = this;
+
     axios.get('http://127.0.0.1:8000/pokemons').then(function (res) {
-      return _this.pokemons = res.data, _this.loading = false;
+      return _this2.pokemons = res.data, _this2.loading = false;
     });
   }
 });
@@ -50533,6 +50594,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Spinner_vue_vue_type_template_id_7ae326fe_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
+
+/***/ }),
+
+/***/ "./resources/js/event-bus.js":
+/*!***********************************!*\
+  !*** ./resources/js/event-bus.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+var bus = new Vue();
+/* harmony default export */ __webpack_exports__["default"] = (bus);
 
 /***/ }),
 
