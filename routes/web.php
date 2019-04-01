@@ -27,6 +27,7 @@ Route::get('prueba/{parametro}', 'PruebaController@prueba');
 
 Route::resource('trainers', 'TrainerController');
 //Route::resource('pokemons', 'PokemonController');
+Route::get('trainers/{trainer}/pokemons','PokemonController@index');
 Route::post('trainers/{trainer}/pokemons','PokemonController@store');
 
 Auth::routes();

@@ -1866,7 +1866,8 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var _this2 = this;
 
-    axios.get('http://127.0.0.1:8000/pokemons').then(function (res) {
+    var currentRoute = window.location.pathname;
+    axios.get("http://127.0.0.1:8000".concat(currentRoute, "/pokemons")).then(function (res) {
       return _this2.pokemons = res.data, _this2.loading = false;
     });
   }

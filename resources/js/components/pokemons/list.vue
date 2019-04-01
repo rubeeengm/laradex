@@ -34,8 +34,10 @@
             })
         },
         mounted() {
+            let currentRoute = window.location.pathname
+
             axios
-                .get('http://127.0.0.1:8000/pokemons')
+                .get(`http://127.0.0.1:8000${currentRoute}/pokemons`)
                 .then(
                     res => (
                         this.pokemons = res.data,

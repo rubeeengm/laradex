@@ -7,10 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 class Trainer extends Model
 {
 	protected $fillable = ['name','avatar','slug'];
-    
+
     /**
      * Get the route key for the model.
-     * 
+     *
      * @return string
      */
     public function getRouteKeyName(){
@@ -18,6 +18,6 @@ class Trainer extends Model
    	}
 
    	public function pokemons() {
-        return $this->hasMany('Laradex\Pokemon');
+        return $this->hasMany('LaraDex\Pokemon');
     }
 }
