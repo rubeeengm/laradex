@@ -14,12 +14,12 @@
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 
 		<a href="/trainers/{{$trainer->slug}}/edit" class="btn btn-primary">Editar</a>
 
-		{!! Form::open([	
+		{!! Form::open([
 			'route' => ['trainers.destroy', $trainer->slug],
 			'method' => 'DELETE'
 		]) !!}
@@ -31,4 +31,7 @@
 
 		{!! Form::close() !!}
 	</div>
+
+	<modal-button></modal-button>
+	<create-form-pokemon></create-form-pokemon>
 @endsection

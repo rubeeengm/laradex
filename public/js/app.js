@@ -1802,7 +1802,8 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     savePokemon: function savePokemon() {
-      axios.post('http://127.0.0.1:8000/pokemons', {
+      var currentRoute = window.location.pathname;
+      axios.post("http://127.0.0.1:8000".concat(currentRoute, "/pokemons"), {
         name: this.name,
         picture: this.picture
       }).then(function (res) {
@@ -50480,8 +50481,8 @@ var bus = new Vue();
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/lasergun/Documents/programming/web/laradex/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/lasergun/Documents/programming/web/laradex/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/server/Documents/programming/web/laravel/LaraDex/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/server/Documents/programming/web/laravel/LaraDex/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
